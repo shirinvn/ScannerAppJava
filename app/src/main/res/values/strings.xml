@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">اسکنر من</string>
+    <string name="app_name">QR Code Scanner </string>
     <string name="open_camer">باز کردن دوربین</string>
     <string name="history">تاریخچه اسکن‌ها</string>
     <string name="instructionText">برای جزییات بیشتر کلیک کنید</string>

@@ -51,12 +51,12 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.9.0'
 
         implementation 'com.github.samanzamani:PersianDate:1.7.1'
-
-    //implementation'com.github.samanzamani.persiancalendar:JalaliCalendar:1.2'
-
    
         implementation 'com.github.samanzamani:PersianDate:1.7.1'
-     //  implementation 'com.github.samanzamani:PersianDate:1.7.1'
+
+    implementation 'com.github.aliab:Persian-Date-Picker-Dialog:1.8.0'
+
+
 
 
 }
