@@ -51,28 +51,11 @@ public class HistoryActivity extends AppCompatActivity {
     }
 
 
-<<<<<<< HEAD
 
-=======
-    @SuppressLint("NotifyDataSetChanged")
->>>>>>> d3e9231cde200e9e6cf7bcfe163060864ba7e9d2
     private void loadScannedBarcodes() {
         SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
         Set<String> scannedBarcodesSet = sharedPreferences.getStringSet("scannedBarcodes", new HashSet<>());
         scannedBarcodesList = new ArrayList<>(scannedBarcodesSet);
-<<<<<<< HEAD
-=======
-
-
-
-    //    sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
-/*        SharedPreferences.Editor editor = sharedPreferences.edit();
-        Set<String> scannedBarcodesSet1 = new HashSet<>(scannedBarcodesList);
-        editor.putStringSet("scannedBarcodes", scannedBarcodesSet1);
-        editor.apply();*/
-
-
->>>>>>> d3e9231cde200e9e6cf7bcfe163060864ba7e9d2
     }
 
 }
