@@ -6,12 +6,9 @@ android {
     namespace 'com.example.camerascannerj'
     compileSdk 33
 
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> d3e9231cde200e9e6cf7bcfe163060864ba7e9d2
     defaultConfig {
         applicationId "com.example.camerascannerj"
         minSdk 24
@@ -51,28 +48,15 @@ dependencies {
 
     implementation'com.github.yuriy-budiyev:code-scanner:2.3.2'
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d3e9231cde200e9e6cf7bcfe163060864ba7e9d2
     implementation 'com.google.code.gson:gson:2.9.0'
 
         implementation 'com.github.samanzamani:PersianDate:1.7.1'
 
-<<<<<<< HEAD
-=======
-=======
     //implementation'com.github.samanzamani.persiancalendar:JalaliCalendar:1.2'
->>>>>>> d3e9231cde200e9e6cf7bcfe163060864ba7e9d2
 
    
         implementation 'com.github.samanzamani:PersianDate:1.7.1'
+     //  implementation 'com.github.samanzamani:PersianDate:1.7.1'
 
-<<<<<<< HEAD
-=======
-      //  implementation 'com.github.samanzamani:PersianDate:1.7.1'
-
->>>>>>> a0834d422503c41039d475e056fcba055534e53b
->>>>>>> d3e9231cde200e9e6cf7bcfe163060864ba7e9d2
 
 }

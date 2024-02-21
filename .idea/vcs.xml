@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-<<<<<<< HEAD
-    <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CameraScannerJ" vcs="Git" />
-=======
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
->>>>>>> d3e9231cde200e9e6cf7bcfe163060864ba7e9d2
+    <mapping directory="$PROJECT_DIR$/ScannerAppJava" vcs="Git" />
   </component>
 </project>

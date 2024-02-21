@@ -1,31 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/image_barcode"
-        android:layout_gravity="center_horizontal"
-        android:scaleType="centerInside"/>
-
-    <TextView
-        android:background="@color/colorPrimary"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_view_barcode"
-        android:autoLink="all"
-        android:textSize="18sp"
-        android:padding="8dp"/>
-
-    <TextView
-        android:background="#FF1212"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/date_txt"
-        android:textSize="18sp"/>
+    android:layout_height="140dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginStart="10dp"
+    app:cardBackgroundColor="#FFEEBC">
 
 
-</LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:id="@+id/image_barcode"
+                android:src="@drawable/background1"
+                android:scaleType="centerInside"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_barcode"
+                    android:autoLink="all"
+                    android:textSize="20sp"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date_txt"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
